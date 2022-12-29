@@ -1,0 +1,44 @@
+body {
+    background: #3f3f3f;
+}
+
+div {
+    background-color: #f3f3f3;
+    border: 5px solid blue;
+    width:100px;
+    height: 100px;
+    
+}
+
+#contenedor-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 15rem);
+    border: 5px solid red;
+}
+
+
+.cuarto {
+
+    /* alineacion horizontal del elemento */
+
+    justify-self: center;
+    justify-self: end;
+    justify-self: start;
+    
+
+    /* alineacion vertical del elemento */
+
+    /* align-self: center; */
+    /* align-self: end; */
+    /* align-self: start; */
+    
+
+    /*Combinar align/justify self con place-self*/
+
+    place-self: center;
+
+
+}
+
+

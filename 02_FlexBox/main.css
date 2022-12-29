@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+}
+
+.p1{
+    background: rgb(13, 177, 177);
+    height: 80px;
+    /* width:300px; */
+    /* font-size: 20px; */
+
+/*Alineacion del elemento flex en eje cruzado*/
+/* align-self:flex-end;
+align-self:flex-start;
+align-self:center;
+align-self:stretch; */
+
+/*La propiedad flex*/
+
+flex-grow:2;
+flex-shrink:2;
+flex-basis: 200px;
+flex: 1 2 100px;
+
+
+}
+
+.p2{
+    background: rgb(226, 52, 66);
+    height: 80px;
+    width:300px;
+    /* font-size: 36px; */
+
+}
+.p3{
+    background: rgb(236, 233, 20);
+    height: 80px;
+    width:300px;
+    /* font-size: 20px; */
+
+}
+
+section {
+    border: 2px solid black;
+    height: 800px;
+
+    /* #1 Declaramos el contenedor como contenedor flex*/
+
+    display: flex;
+    /* display: inline-flex;  */
+
+    /* #2 La direccion del flex*/
+
+    /* flex-direction: row;  */
+    /* flex-direction:column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* #3 La propiedad flex-wrap*/
+
+    /* flex-wrap: wrap;  */
+    /* flex-wrap:nowrap; */
+    /* flex-wrap:wrap-reverse;  */
+
+    /* #4  flex-flow*/
+
+    /* flex-flow: row-reverse wrap; */
+
+    /* #4 Alineacion en el eje principal*/
+
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* #5 Alineacion en el eje cruzado*/
+
+     /* align-items: flex-start;
+     align-items: flex-end;
+     align-items: center;
+     align-items: stretch;
+     align-items: baseline; */
+
+    /*6. Alineacion de las filas en el eje transversal*/
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end;    */
+    /* align-content: center;
+    align-content: stretch; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+
+}
+

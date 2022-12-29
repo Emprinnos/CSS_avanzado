@@ -1,0 +1,51 @@
+body {
+    background: #3f3f3f;
+}
+
+div {
+    color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+}
+
+#contenedor-grid {
+
+    /*Declarar un contenedor como contenedor grid*/
+
+    display:grid;
+    /* display:inline-grid;  */
+
+    /*Fija el espacio entre los elementos grid*/
+
+    /* gap:20px; */
+
+    /*Especifica el numero de columnas en Valores absolutos*/
+
+
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px 100px 100px;
+
+    /*Especifica cada columna con valores mezclados*/
+    /* grid-template-columns: 300px 30rem; */
+    
+    /*Unidad relativa fr*/
+    /* grid-template-columns: 1fr 2fr 5fr; */
+    
+    /*La opcion repeat*/
+
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    /*Grid Implicito*/
+
+    /* grid-auto-rows: 300px; */
+
+    /*La opcion minimax*/
+    /* grid-auto-rows: minmax(100px, auto); */
+
+}
+
+/* Especificando la posicion de cada elemento */
+
+/* .primero {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3
+}  */

@@ -1,0 +1,49 @@
+
+
+body{
+    margin:0;
+}
+
+#principal {
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 7fr 2fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+      " a a a"
+      " b c d"
+      " e e e"
+}
+
+header {
+    background-color:dodgerblue ;
+    grid-area: a;
+    
+}
+
+nav {
+    background-color: lightsalmon;
+    grid-area: b;
+
+    
+}
+
+main {
+    background-color: goldenrod;
+    grid-area: c;
+
+    
+}
+
+aside {
+    background-color: darkcyan;
+    grid-area: d;
+   
+}
+
+footer {
+    background-color: cornflowerblue;
+    grid-area: e;
+
+    
+}

@@ -1,0 +1,52 @@
+body {
+    background: #3f3f3f;
+}
+
+div {
+    background-color: #f3f3f3;
+    border: 5px solid blue;
+    width:100px;
+    height: 100px;
+    
+}
+
+#contenedor-grid {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 15rem);
+    border: 5px solid red;
+
+  
+  
+
+    /*ALINEACION HORIZONTAL DE LOS ELEMENTOS */
+
+    /* justify-items: end; */
+    /* justify-items: start; */
+    /* justify-items: center; */
+    /* justify-items: stretch; */
+    /* justify-items: space-around; */
+    /* justify-items: space-between; */
+    /* justify-items: space-evenly; */
+    /* justify-items: stretch; */
+
+
+    /*ALINEACION VERTICAL DE LOS ELEMENTOS*/
+    /* align-items: end;*/
+    /*align-items: start; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: space-around; */
+    /* align-items: space-between; */
+    /* align-items: space-evenly; */
+    /* align-items: stretch; */
+
+    /*ALIGN/JUSTIFY ITEMS SE PUEDE COMBINAR*/
+    /*CON PLACE-ITEMS*/
+
+
+    /* place-items: end start; */
+    place-items: center;
+
+
+}
